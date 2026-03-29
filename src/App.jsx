@@ -75,8 +75,8 @@ function App() {
     ? platforms.find(p => p.id === pathParts[1]) || null
     : null
 
-  const [showInfo, setShowInfo] = useState(true)
-  const [layoutMode, setLayoutMode] = useState('funnel')
+
+
   const [activeFilter, setActiveFilter] = useState(null)
   const [expandedObjectives, setExpandedObjectives] = useState({})
   const [searchQuery, setSearchQuery] = useState('')
@@ -395,7 +395,6 @@ function WelcomeView({ platformCount, objectiveCount, onNavigate, onPlatformClic
 /* ========== PLATFORM DETAIL ========== */
 function PlatformDetailView({ platform, expandedObjectives, onToggle, searchQuery }) {
   const [layoutMode, setLayoutMode] = useState('funnel')
-  const [showInfo, setShowInfo] = useState(true)
   const [allExpanded, setAllExpanded] = useState(false)
 
   const filtered = platform.objectives.filter(obj =>
@@ -454,8 +453,8 @@ function PlatformDetailView({ platform, expandedObjectives, onToggle, searchQuer
         </div>
       </div>
 
-      {/* Pros / Cons / Audience / Benchmarks */}
-      {showInfo && (platform.pros || platform.audience) && (
+      {/* Pros / Cons / Audience / Benchmarks — always visible */}
+      {(platform.pros || platform.audience) && (
         <div className="platform-info-grid">
           {platform.pros && (
             <div className="info-card pros">
@@ -498,10 +497,6 @@ function PlatformDetailView({ platform, expandedObjectives, onToggle, searchQuer
           )}
         </div>
       )}
-
-      <button className="toggle-info-btn" onClick={() => setShowInfo(!showInfo)}>
-        {showInfo ? '▲ Ẩn thông tin' : '▼ Hiển thông tin chi tiết'}
-      </button>
 
       {/* ───── ACCOUNT TOOLS PANEL (Collapsible) ───── */}
       <details className="collapsible-panel">

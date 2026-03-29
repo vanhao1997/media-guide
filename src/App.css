@@ -1324,28 +1324,8 @@ body {
   font-weight: 600;
 }
 
-.toggle-info-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: none;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 6px 14px;
-  font-size: 12px;
-  color: var(--color-text-muted);
-  cursor: pointer;
-  font-family: var(--font-body);
-  transition: all var(--transition-fast);
-  margin: 8px 32px 20px;
-  align-self: flex-start;
-}
 
-.toggle-info-btn:hover {
-  border-color: var(--color-primary);
-  color: var(--color-primary-hover);
-  background: var(--color-primary-dim);
-}
+
 
 .platform-info-grid {
   display: grid;
