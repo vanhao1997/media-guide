@@ -1,0 +1,1546 @@
+[
+  {
+    "id": "facebook",
+    "name": "Facebook Ads",
+    "icon": "facebook",
+    "color": "#1877F2",
+    "description": "Nền tảng quảng cáo mạng xã hội lớn nhất với hơn 70 triệu người dùng tại Việt Nam. Phù hợp cho mọi ngành nghề, đặc biệt mạnh về targeting chi tiết và remarketing.",
+    "audienceOverview": "18-65+, đa dạng ngành nghề, chủ yếu 18-44 tuổi tại VN",
+    "minBudget": "Từ 30,000 VNĐ/ngày",
+    "pricingModel": [
+      "CPM",
+      "CPC",
+      "CPA",
+      "CPV"
+    ],
+    "idealFor": [
+      "Ecommerce",
+      "FMCG",
+      "Bất động sản",
+      "Giáo dục",
+      "F&B",
+      "Dịch vụ"
+    ],
+    "audience": {
+      "totalUsers": "70+ triệu tại VN",
+      "ageRange": "18-65+",
+      "primaryAge": "25-44 (chiếm 52%)",
+      "gender": "Nữ 54%, Nam 46%",
+      "devices": "Mobile 95%, Desktop 5%",
+      "peakHours": "12:00-14:00, 20:00-23:00"
+    },
+    "pros": [
+      "Targeting chi tiết nhất (sở thích, hành vi, Custom Audience, Lookalike)",
+      "Hệ sinh thái đa dạng: Facebook + Instagram + Messenger + Audience Network",
+      "Remarketing mạnh với Pixel + Conversion API",
+      "Phù hợp mọi quy mô doanh nghiệp, budget linh hoạt",
+      "CPAS giúp brand bán hàng hiệu quả trên sàn TMĐT"
+    ],
+    "cons": [
+      "CPM tăng dần theo thời gian, cạnh tranh cao",
+      "Chính sách quảng cáo nghiêm ngặt, dễ bị reject ads",
+      "Organic reach giảm mạnh — phải trả phí để tiếp cận",
+      "Ad fatigue nhanh nếu không refresh creative",
+      "iOS 14+ ảnh hưởng tracking, cần Conversion API"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPM": "15,000 - 60,000 VNĐ",
+      "CPC": "1,000 - 8,000 VNĐ",
+      "CTR": "0.8% - 2.5%",
+      "CPL": "30,000 - 200,000 VNĐ"
+    },
+    "adSpecs": {
+      "image": [
+        "1200x628px (feed)",
+        "1080x1080px (vuông)",
+        "1080x1920px (Stories/Reels)"
+      ],
+      "video": "Tỷ lệ 4:5 hoặc 9:16 | Tối đa 4GB | 15-60s khuynếốn, bắt mắt trong 3s đầu",
+      "text": "Tiêu đề: tối đa 40 ký tự | Primary text: 125 ký tự | Mô tả: 30 ký tự",
+      "note": "Tỷ lệ text trên ảnh < 20% | Dung lượng ảnh tối đa 30MB"
+    },
+    "tips": [
+      "🎯 Test ít nhất 3-5 creative khác nhau (hình/video/carousel) — để Facebook tự tối ưu",
+      "⏳ Dành 3-5 ngày đầu cho thuật toán học máy (learning phase) — không chỉnh sửa gì",
+      "👥 Dùng Lookalike Audience từ tệp khách hàng cũ hoặc pixel để tăng chất lượng target",
+      "💰 Cài đặt Advantage+ Campaign Budget (ACB) thay vì set budget từng ad set riêng",
+      "🔄 Refresh creative mỗi 2-3 tuần hoặc khi tần suất (frequency) vượt 4 lần/người"
+    ],
+    "commonMistakes": [
+      "❌ Chỉnh sửa ad set liên tục trong learning phase — rốt cục không hcơ được gì",
+      "❌ Target quá hẹp (audience < 100K) — giá CPM tăng, phân phối bới kém",
+      "❌ Dung lượng pixel event sai — dẫn đến tối ưu sai mục tiêu",
+      "❌ Đặt budget quá thấp (< 50K/ngày/ad set) — không đủ data để thuật toán học"
+    ],
+    "objectives": [
+      {
+        "id": "fb-awareness",
+        "name": "Awareness (Nhận diện thương hiệu)",
+        "category": "awareness",
+        "description": "Hiển thị quảng cáo đến nhiều người nhất có thể để tăng nhận diện thương hiệu. Phù hợp khi ra mắt sản phẩm mới hoặc xây dựng thương hiệu.",
+        "adFormats": [
+          "Image Ad",
+          "Video Ad",
+          "Carousel",
+          "Stories",
+          "Reels Ad"
+        ],
+        "metrics": [
+          "Reach",
+          "Impressions",
+          "CPM",
+          "Frequency",
+          "Ad Recall Lift"
+        ],
+        "targetAudience": "Brand mới, launch sản phẩm, mở rộng thị trường",
+        "bestPractices": [
+          "Video ngắn 15-30s hiệu quả nhất cho awareness",
+          "Tần suất lý tưởng: 1.5-3 lần/người/tuần",
+          "Sử dụng hình ảnh thương hiệu nhất quán"
+        ]
+      },
+      {
+        "id": "fb-traffic",
+        "name": "Traffic (Lưu lượng truy cập)",
+        "category": "traffic",
+        "description": "Đưa người dùng đến website, app hoặc landing page. Tối ưu cho lượt click chuột vào link.",
+        "adFormats": [
+          "Image Ad",
+          "Video Ad",
+          "Carousel",
+          "Collection",
+          "Instant Experience"
+        ],
+        "metrics": [
+          "Link Clicks",
+          "CTR",
+          "CPC",
+          "Landing Page Views",
+          "Cost per Landing Page View"
+        ],
+        "targetAudience": "Ecommerce, blog, landing page sự kiện, app",
+        "bestPractices": [
+          "CTA rõ ràng: 'Tìm hiểu thêm', 'Mua ngay'",
+          "Landing page load dưới 3 giây",
+          "Test nhiều creative để tìm winning ad"
+        ]
+      },
+      {
+        "id": "fb-engagement",
+        "name": "Engagement (Tương tác)",
+        "category": "engagement",
+        "description": "Tăng lượt thích, bình luận, chia sẻ bài viết. Phù hợp để tăng social proof và xây dựng cộng đồng.",
+        "adFormats": [
+          "Image Ad",
+          "Video Ad",
+          "Carousel",
+          "Event Ad",
+          "Page Like Ad"
+        ],
+        "metrics": [
+          "Post Engagement",
+          "Likes",
+          "Comments",
+          "Shares",
+          "Cost per Engagement"
+        ],
+        "targetAudience": "Xây dựng cộng đồng, tăng social proof, viral content",
+        "bestPractices": [
+          "Nội dung kích thích thảo luận hoặc tag bạn bè",
+          "Video native có engagement cao hơn link video",
+          "Đặt câu hỏi hoặc tạo poll trong bài"
+        ]
+      },
+      {
+        "id": "fb-video-views",
+        "name": "Video Views (Lượt xem video)",
+        "category": "engagement",
+        "description": "Tối ưu để có nhiều lượt xem video nhất trên Facebook, Instagram, và Audience Network. Phù hợp cho storytelling, giới thiệu sản phẩm, và xây dựng thương hiệu qua video content.",
+        "adFormats": [
+          "In-Feed Video",
+          "Stories Video",
+          "Reels Video",
+          "In-stream Video",
+          "Carousel Video"
+        ],
+        "metrics": [
+          "Video Views (3s/15s/100%)",
+          "ThruPlay",
+          "Cost per ThruPlay",
+          "Average Watch Time",
+          "Video Plays at 25%/50%/75%/100%"
+        ],
+        "targetAudience": "Brand storytelling, product demo, TVC online, event recap, behind-the-scenes",
+        "bestPractices": [
+          "Video dọc (9:16) cho Reels/Stories, ngang (16:9) cho Feed",
+          "3 giây đầu phải hook — không để logo/intro quá dài",
+          "Thêm caption/phụ đề vì 80% user xem tắt tiếng",
+          "ThruPlay (xem tối thiểu 15s hoặc hết video) là metric chuẩn"
+        ]
+      },
+      {
+        "id": "fb-cpas",
+        "name": "CPAS — Collaborative Performance Advertising Solution",
+        "category": "conversions",
+        "description": "Giải pháp quảng cáo hợp tác giữa Brand và Sàn TMĐT (Shopee, Lazada, Tiki). Brand chạy ads trên Facebook nhưng đưa traffic về shop trên sàn, tracking conversion trực tiếp nhờ data-sharing từ sàn. Rất hiệu quả cho ecommerce brands.",
+        "adFormats": [
+          "Dynamic Product Ad (DPA)",
+          "Carousel Product Ad",
+          "Collection Ad",
+          "Single Image/Video + Deep Link sàn"
+        ],
+        "metrics": [
+          "ROAS (trên sàn)",
+          "Purchases (Shopee/Lazada)",
+          "Add to Cart (sàn)",
+          "CPA",
+          "CPP (Cost per Purchase)"
+        ],
+        "targetAudience": "Brand bán hàng trên Shopee, Lazada, Tiki. FMCG, Beauty, Fashion, F&B, Electronics trên sàn TMĐT",
+        "bestPractices": [
+          "Cần xin quyền access CPAS từ Shopee/Lazada (qua Seller Center hoặc đại lý)",
+          "Dynamic Ads tự hiển thị sản phẩm từ catalog sàn — giá realtime",
+          "Chạy kết hợp CPAS + voucher sàn trong Mega Sale (9.9, 11.11, 12.12)",
+          "Retarget người đã xem sản phẩm trên sàn nhưng chưa mua",
+          "Budget tối thiểu nên 500K-1M VNĐ/ngày cho đủ data optimize"
+        ]
+      },
+      {
+        "id": "fb-leads",
+        "name": "Leads (Thu thập khách hàng tiềm năng)",
+        "category": "leads",
+        "description": "Thu thập thông tin khách hàng (tên, SĐT, email) ngay trên Facebook mà không cần rời nền tảng. Dành cho B2B, bất động sản, giáo dục.",
+        "adFormats": [
+          "Lead Form Ad",
+          "Instant Form",
+          "Messenger Ad",
+          "Carousel Lead Ad"
+        ],
+        "metrics": [
+          "Leads",
+          "Cost per Lead (CPL)",
+          "Lead Form Opens",
+          "Lead Submit Rate"
+        ],
+        "targetAudience": "Bất động sản, giáo dục, B2B, dịch vụ tài chính",
+        "bestPractices": [
+          "Form ngắn gọn: chỉ 3-5 trường thông tin",
+          "Offer rõ ràng: 'Nhận báo giá miễn phí'",
+          "Kết nối CRM để follow up tự động"
+        ]
+      },
+      {
+        "id": "fb-sales",
+        "name": "Sales (Chuyển đổi mua hàng)",
+        "category": "conversions",
+        "description": "Tối ưu cho hành vi mua hàng, thêm vào giỏ, đăng ký. Cần cài Facebook Pixel trên website.",
+        "adFormats": [
+          "Image Ad",
+          "Video Ad",
+          "Carousel",
+          "Collection",
+          "Dynamic Product Ad (DPA)"
+        ],
+        "metrics": [
+          "Purchases",
+          "ROAS",
+          "Cost per Purchase",
+          "Add to Cart",
+          "Conversion Rate"
+        ],
+        "targetAudience": "Ecommerce, cửa hàng online, dịch vụ có đặt hàng online",
+        "bestPractices": [
+          "Cài Facebook Pixel + Conversion API cho tracking chính xác",
+          "Dùng DPA để retarget người đã xem sản phẩm",
+          "Tối thiểu 50 conversions/tuần cho tối ưu machine learning"
+        ]
+      },
+      {
+        "id": "fb-app",
+        "name": "App Installs (Cài đặt ứng dụng)",
+        "category": "app",
+        "description": "Quảng cáo hướng người dùng tải app từ App Store hoặc Google Play.",
+        "adFormats": [
+          "Image Ad",
+          "Video Ad",
+          "Carousel",
+          "Playable Ad"
+        ],
+        "metrics": [
+          "App Installs",
+          "Cost per Install (CPI)",
+          "App Events",
+          "ROAS"
+        ],
+        "targetAudience": "App mobile, game, fintech, super app",
+        "bestPractices": [
+          "Video demo app 15-30 giây",
+          "Deep link đến đúng store",
+          "Optimize cho app events (đăng ký, mua hàng trong app)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok Ads",
+    "icon": "tiktok",
+    "color": "#000000",
+    "description": "Nền tảng video ngắn với hơn 50 triệu người dùng VN. Mạnh về reach giới trẻ (Gen Z, Millennials), entertainment-driven content, và viral marketing.",
+    "audienceOverview": "16-40 tuổi, chủ yếu Gen Z & Millennials, content-driven",
+    "minBudget": "Từ 200,000 VNĐ/ngày (tối thiểu theo campaign)",
+    "pricingModel": [
+      "CPM",
+      "CPC",
+      "CPV",
+      "oCPM"
+    ],
+    "idealFor": [
+      "FMCG",
+      "Fashion",
+      "Beauty",
+      "F&B",
+      "Entertainment",
+      "App",
+      "Gaming"
+    ],
+    "audience": {
+      "totalUsers": "50+ triệu tại VN",
+      "ageRange": "16-45",
+      "primaryAge": "18-34 (chiếm 65%)",
+      "gender": "Nữ 57%, Nam 43%",
+      "devices": "Mobile 99%, Desktop 1%",
+      "peakHours": "12:00-14:00, 19:00-23:00"
+    },
+    "pros": [
+      "Reach cực lớn với Gen Z — viral potential cao",
+      "UGC/Spark Ads tạo cảm giác tự nhiên, engagement tốt",
+      "CPM thấp hơn Facebook trong nhiều ngành",
+      "Video-first — phù hợp cho storytelling, demo sản phẩm",
+      "TikTok Shop integration mạnh cho ecommerce"
+    ],
+    "cons": [
+      "Audience nghiêng trẻ — không phù hợp B2B, luxury",
+      "Creative phải liên tục mới — ad fatigue cực nhanh (3-5 ngày)",
+      "Khó kiểm soát brand safety (comment, duet)",
+      "Targeting chưa chi tiết bằng Facebook",
+      "Conversion tracking kém hơn FB (cải thiện dần)"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPM": "10,000 - 40,000 VNĐ",
+      "CPC": "500 - 5,000 VNĐ",
+      "CTR": "1.0% - 3.0%",
+      "CPV": "100 - 500 VNĐ"
+    },
+    "objectives": [
+      {
+        "id": "tt-reach",
+        "name": "Reach (Tiếp cận)",
+        "category": "awareness",
+        "description": "Hiển thị quảng cáo đến số lượng người dùng tối đa trong ngân sách cho phép.",
+        "adFormats": [
+          "In-Feed Video",
+          "TopView",
+          "Brand Takeover",
+          "Branded Effect"
+        ],
+        "metrics": [
+          "Reach",
+          "Impressions",
+          "CPM",
+          "Frequency"
+        ],
+        "targetAudience": "Brand awareness, launch campaign, seasonal promotion",
+        "bestPractices": [
+          "TopView đạt reach cao nhất (full-screen khi mở app)",
+          "Video native style (không quá 'quảng cáo') hiệu quả hơn",
+          "Tận dụng trending sound và hashtag"
+        ]
+      },
+      {
+        "id": "tt-traffic",
+        "name": "Traffic (Lưu lượng)",
+        "category": "traffic",
+        "description": "Đưa người dùng đến website hoặc landing page thông qua video quảng cáo.",
+        "adFormats": [
+          "In-Feed Video",
+          "Spark Ads (boost post có sẵn)"
+        ],
+        "metrics": [
+          "Clicks",
+          "CTR",
+          "CPC",
+          "Landing Page Views"
+        ],
+        "targetAudience": "Ecommerce, landing page, đăng ký sự kiện",
+        "bestPractices": [
+          "Hook 3 giây đầu phải gây tò mò",
+          "CTA rõ ràng ở cuối video + nút CTA",
+          "Spark Ads từ bài organic đã viral có CTR cao"
+        ]
+      },
+      {
+        "id": "tt-video-views",
+        "name": "Video Views (Lượt xem video)",
+        "category": "engagement",
+        "description": "Tối ưu để có nhiều lượt xem video nhất. Phù hợp cho storytelling và giới thiệu sản phẩm.",
+        "adFormats": [
+          "In-Feed Video",
+          "Spark Ads"
+        ],
+        "metrics": [
+          "Video Views (2s/6s/full)",
+          "View Rate",
+          "Average Watch Time",
+          "CPV"
+        ],
+        "targetAudience": "Storytelling, product demo, brand film, MV quảng cáo",
+        "bestPractices": [
+          "Video 15-30 giây có watch-through rate tốt nhất",
+          "Phụ đề tiếng Việt bắt buộc (nhiều người xem tắt tiếng)",
+          "UGC style có completion rate cao hơn studio content"
+        ]
+      },
+      {
+        "id": "tt-community",
+        "name": "Community Interaction (Tương tác)",
+        "category": "engagement",
+        "description": "Tăng lượt follow, like, comment cho tài khoản TikTok. Xây dựng cộng đồng followers.",
+        "adFormats": [
+          "In-Feed Video",
+          "Spark Ads"
+        ],
+        "metrics": [
+          "Followers",
+          "Likes",
+          "Comments",
+          "Shares",
+          "Profile Visits"
+        ],
+        "targetAudience": "Xây kênh TikTok, KOL/Influencer, thương hiệu muốn community",
+        "bestPractices": [
+          "Nội dung series (nhiều tập) giữ chân followers",
+          "Reply comment bằng video để tăng engagement",
+          "Hashtag challenge khuyến khích UGC"
+        ]
+      },
+      {
+        "id": "tt-leads",
+        "name": "Lead Generation (Thu thập lead)",
+        "category": "leads",
+        "description": "Thu thập thông tin KH tiềm năng qua form trong app TikTok. Không cần landing page.",
+        "adFormats": [
+          "In-Feed Video + Instant Form"
+        ],
+        "metrics": [
+          "Leads",
+          "CPL",
+          "Form Open Rate",
+          "Form Submit Rate"
+        ],
+        "targetAudience": "Giáo dục, bất động sản, dịch vụ, B2B",
+        "bestPractices": [
+          "Form ngắn: tên + SĐT là đủ",
+          "Video testimonial khách hàng = lead chất lượng hơn",
+          "Thank you page có CTA tiếp theo"
+        ]
+      },
+      {
+        "id": "tt-conversions",
+        "name": "Conversions (Chuyển đổi)",
+        "category": "conversions",
+        "description": "Tối ưu cho hành vi mua hàng trên website. Cần cài TikTok Pixel.",
+        "adFormats": [
+          "In-Feed Video",
+          "Spark Ads",
+          "Collection Ad",
+          "Dynamic Showcase Ad"
+        ],
+        "metrics": [
+          "Conversions",
+          "CVR",
+          "CPA",
+          "ROAS",
+          "Add to Cart"
+        ],
+        "targetAudience": "Ecommerce, cửa hàng online, Shopee/Lazada seller",
+        "bestPractices": [
+          "Cài TikTok Pixel + Events API",
+          "Product demo + review = conversion cao",
+          "Retarget người đã tương tác video"
+        ]
+      },
+      {
+        "id": "tt-app",
+        "name": "App Install (Cài đặt ứng dụng)",
+        "category": "app",
+        "description": "Quảng cáo hướng người dùng tải app từ App Store hoặc Google Play. TikTok mạnh với app game, fintech, lifestyle nhờ audience trẻ và engagement cao.",
+        "adFormats": [
+          "In-Feed Video",
+          "Spark Ads",
+          "Playable Ad",
+          "Pangle (TikTok Audience Network)"
+        ],
+        "metrics": [
+          "App Installs",
+          "CPI (Cost per Install)",
+          "In-app Events",
+          "ROAS",
+          "Retention Rate D1/D7"
+        ],
+        "targetAudience": "App mobile, game, fintech, dating, lifestyle, shopping app",
+        "bestPractices": [
+          "Video demo gameplay hoặc app UI 15-30s — UGC style hiệu quả hơn",
+          "Cài TikTok SDK trong app để track post-install events",
+          "Optimize cho in-app actions (đăng ký, nạp tiền) thay vì chỉ install",
+          "Pangle mở rộng reach ngoài TikTok app"
+        ]
+      }
+    ],
+    "adSpecs": {
+      "image": [
+        "1080x1080px (feed)",
+        "1080x1920px (TopView/Stories)"
+      ],
+      "video": "Tỷ lệ 9:16 chuẩn | Tối đa 500MB | 15-60s (15s tốt nhất) | Bắt đầu bằng 3s có hook mạnh",
+      "text": "Tiêu đề: tối đa 100 ký tự | Description (Spark Ads): 150 ký tự",
+      "note": "Video nằm ngang (16:9) không phù hợp — luôn dùng 9:16 | Không watermark YouTube/Instagram"
+    },
+    "tips": [
+      "🎬 Ưu tiên Spark Ads (boost video tự nhiên) — tỷ lệ tương tác cao hơn hẳn Dark Post",
+      "⏱ Hook 3 giây đầu quyết định 80% hiệu quả — bắt đầu bạo, tốc độ cao, có chữ ngay",
+      "🔄 Rotate ít nhất 3 video/tuần để tránh ad fatigue nhanh trên TikTok",
+      "🎯 Dùng Interest + Behavior Targeting kết hợp Custom Audience từ máy ngươi xem",
+      "📊 Bắt đầu với Video Views để build data, sau đó retarget bằng Conversion campaign"
+    ],
+    "commonMistakes": [
+      "❌ Dùng video quay ngang (16:9) — bị crop xấu, giảm hiệu quả rõ rệt",
+      "❌ Làm video quá \"quảng cáo\" rõ ràng — user TikTok lướt qua ngay",
+      "❌ Watermark từ nền tảng khác — TikTok giảm phân phối rõ rệt",
+      "❌ Đặt ngân sách quá thấp < 200K/ngày — TikTok không phân phối đủ"
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google Ads",
+    "icon": "google",
+    "color": "#4285F4",
+    "description": "Nền tảng quảng cáo search và display lớn nhất thế giới. Tiếp cận người dùng khi họ đang chủ động tìm kiếm sản phẩm/dịch vụ (search intent cao).",
+    "audienceOverview": "Mọi đối tượng sử dụng Google Search, Gmail, GDN",
+    "minBudget": "Từ 50,000 VNĐ/ngày",
+    "pricingModel": [
+      "CPC",
+      "CPM",
+      "CPA",
+      "ROAS-based"
+    ],
+    "idealFor": [
+      "Ecommerce",
+      "Dịch vụ",
+      "B2B",
+      "Bất động sản",
+      "Du lịch",
+      "Giáo dục",
+      "SaaS"
+    ],
+    "audience": {
+      "totalUsers": "95% internet users VN dùng Google",
+      "ageRange": "18-65+",
+      "primaryAge": "25-54 (chiếm 60%)",
+      "gender": "Nam 52%, Nữ 48%",
+      "devices": "Mobile 75%, Desktop 25%",
+      "peakHours": "9:00-11:00, 14:00-16:00, 20:00-22:00"
+    },
+    "pros": [
+      "Intent cao nhất — người dùng chủ động tìm kiếm",
+      "Performance Max tự động tối ưu trên mọi kênh Google",
+      "Shopping Ads hiệu quả cho ecommerce với hình ảnh + giá",
+      "Remarketing lại qua GDN + YouTube",
+      "Data đo lường chi tiết nhất với Google Analytics"
+    ],
+    "cons": [
+      "CPC cao cho ngành cạnh tranh (BĐS, tài chính, luật)",
+      "Cần kiến thức chuyên sâu — platform phức tạp",
+      "Display/GDN chất lượng traffic thấp nếu không loại trừ placements",
+      "P.Max hộp đen — khó kiểm soát phân bổ budget",
+      "Click fraud vẫn là vấn đề"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPC_Search": "3,000 - 30,000 VNĐ",
+      "CPM_Display": "5,000 - 25,000 VNĐ",
+      "CTR_Search": "2% - 8%",
+      "CTR_Display": "0.3% - 1.0%"
+    },
+    "objectives": [
+      {
+        "id": "gg-search",
+        "name": "Search Ads (Quảng cáo tìm kiếm)",
+        "category": "conversions",
+        "description": "Hiển thị quảng cáo text trên trang kết quả Google khi người dùng tìm kiếm từ khóa liên quan. Intent mua hàng rất cao.",
+        "adFormats": [
+          "Responsive Search Ad",
+          "Call Ad",
+          "Dynamic Search Ad"
+        ],
+        "metrics": [
+          "Clicks",
+          "CTR",
+          "CPC",
+          "Conversions",
+          "Conv. Rate",
+          "ROAS",
+          "Quality Score"
+        ],
+        "targetAudience": "Mọi ngành có người dùng search Google: dịch vụ, ecommerce, B2B",
+        "bestPractices": [
+          "Nghiên cứu keyword kỹ: long-tail keyword có CPC thấp, intent cao",
+          "Quality Score 7+ để CPC rẻ hơn",
+          "Dùng negative keywords loại bỏ traffic không liên quan"
+        ]
+      },
+      {
+        "id": "gg-display",
+        "name": "Display Ads (Quảng cáo hiển thị GDN)",
+        "category": "awareness",
+        "description": "Banner quảng cáo hiển thị trên hơn 2 triệu website trong mạng Google Display Network.",
+        "adFormats": [
+          "Responsive Display Ad",
+          "Image Banner",
+          "HTML5 Ad",
+          "Gmail Ad"
+        ],
+        "metrics": [
+          "Impressions",
+          "Reach",
+          "CPM",
+          "Clicks",
+          "CTR",
+          "View-through Conversions"
+        ],
+        "targetAudience": "Awareness, remarketing, reach rộng với chi phí thấp",
+        "bestPractices": [
+          "Remarketing trên GDN có ROI rất cao",
+          "Dùng Responsive Display Ad để Google tối ưu tự động",
+          "Loại bỏ placements kém chất lượng (app, game)"
+        ]
+      },
+      {
+        "id": "gg-shopping",
+        "name": "Shopping Ads (Quảng cáo mua sắm)",
+        "category": "conversions",
+        "description": "Hiển thị sản phẩm với hình ảnh, giá, tên shop trực tiếp trên Google Search. Dành cho ecommerce.",
+        "adFormats": [
+          "Product Shopping Ad",
+          "Smart Shopping",
+          "Local Inventory Ad"
+        ],
+        "metrics": [
+          "Clicks",
+          "CPC",
+          "Conversions",
+          "ROAS",
+          "Impression Share"
+        ],
+        "targetAudience": "Ecommerce, cửa hàng online có catalog sản phẩm",
+        "bestPractices": [
+          "Product feed chất lượng cao (hình đẹp, title chuẩn SEO)",
+          "Giá cạnh tranh ảnh hưởng lớn đến CTR",
+          "Phân nhóm sản phẩm theo margin để bid khác nhau"
+        ]
+      },
+      {
+        "id": "gg-pmax",
+        "name": "Performance Max (Tối đa hiệu suất)",
+        "category": "conversions",
+        "description": "Chiến dịch tự động chạy quảng cáo trên mọi kênh Google (Search, Display, YouTube, Gmail, Maps, Discovery) với AI tối ưu.",
+        "adFormats": [
+          "Text + Image + Video (Google tự kết hợp)"
+        ],
+        "metrics": [
+          "Conversions",
+          "CPA",
+          "ROAS",
+          "Conversion Value"
+        ],
+        "targetAudience": "Ecommerce muốn scale, lead gen đa kênh",
+        "bestPractices": [
+          "Cung cấp đủ assets: text, image, video cho AI tối ưu",
+          "Cần tối thiểu 30 conversions/tháng để hoạt động tốt",
+          "Theo dõi Search Terms report để đảm bảo chất lượng traffic"
+        ]
+      },
+      {
+        "id": "gg-app",
+        "name": "App Campaigns (Quảng cáo ứng dụng)",
+        "category": "app",
+        "description": "Quảng cáo app trên Search, Play Store, YouTube, Display Network. Google tự tối ưu creative và placement.",
+        "adFormats": [
+          "Text + Image + Video (Google tự tạo ad)",
+          "HTML5 Playable"
+        ],
+        "metrics": [
+          "Installs",
+          "CPI",
+          "In-app Actions",
+          "Cost per Action"
+        ],
+        "targetAudience": "App mobile, game, fintech, super app",
+        "bestPractices": [
+          "Cung cấp nhiều creative assets đa dạng",
+          "Set target CPI/CPA phù hợp với LTV",
+          "Theo dõi post-install events để tối ưu quality users"
+        ]
+      }
+    ],
+    "adSpecs": {
+      "image": [
+        "300x250px",
+        "728x90px",
+        "160x600px",
+        "1200x628px (Responsive Display)"
+      ],
+      "video": "YouTube: 16:9 | Tối đa 1GB | In-stream tối thiểu 12s, bỏ qua sau 5s",
+      "text": "Headline: 30 ký tự (x3) | Description: 90 ký tự (x2) | Display URL: 15 ký tự",
+      "note": "Search Ads: không có hình ảnh | Responsive Search Ad cho phép 15 headline + 4 description"
+    },
+    "tips": [
+      "🔍 Dùng Broad Match + Smart Bidding (Target CPA/ROAS) thay vì Exact Match thủ công",
+      "📈 Bật Performance Max kết hợp với Search để phủ toàn bộ kênh Google",
+      "💡 Cài đặt Conversion Tracking qua Google Tag trước khi chạy — bắt buộc",
+      "🎯 Dùng loại trừ keyword (negative) chặt chẽ để tiết kiệm ngân sách",
+      "⏰ Lên lịch hiển thị (ad scheduling) theo giờ cao điểm ngành để tối ưu"
+    ],
+    "commonMistakes": [
+      "❌ Không cài Conversion Tracking — không có data để Smart Bidding tối ưu",
+      "❌ Chạy Broad Match không có negative keyword — tiêu budget vào traffic rác",
+      "❌ Không nhóm Ad Group theo chủ đề — Quality Score thấp, CPC cao",
+      "❌ Không link Google Ads với Google Analytics — mất insight về hành vi sau click"
+    ]
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube Ads",
+    "icon": "youtube",
+    "color": "#FF0000",
+    "description": "Nền tảng video lớn nhất thế giới với hơn 60 triệu người dùng VN. Quảng cáo qua Google Ads, mạnh về storytelling và brand awareness.",
+    "audienceOverview": "Mọi độ tuổi, đặc biệt 18-44, xem video giải trí + học tập",
+    "minBudget": "Từ 100,000 VNĐ/ngày",
+    "pricingModel": [
+      "CPV",
+      "CPM",
+      "CPC"
+    ],
+    "idealFor": [
+      "Brand Awareness",
+      "Product Launch",
+      "FMCG",
+      "Automotive",
+      "Entertainment",
+      "Education"
+    ],
+    "audience": {
+      "totalUsers": "45+ triệu tại VN",
+      "ageRange": "18-65+",
+      "primaryAge": "25-44 (chiếm 50%)",
+      "gender": "Nam 55%, Nữ 45%",
+      "devices": "Mobile 70%, Smart TV 20%, Desktop 10%",
+      "peakHours": "19:00-23:00"
+    },
+    "pros": [
+      "Nền tảng video lớn nhất thế giới — 95% VN xem YouTube",
+      "Video dài phù hợp storytelling, edu-content, TVC",
+      "Targeting chi tiết theo interest, keyword, placement",
+      "Brand Lift Studies đo hiệu quả nhận biết thương hiệu",
+      "YouTube Shorts cạnh tranh với TikTok/Reels"
+    ],
+    "cons": [
+      "Chi phí sản xuất video cao",
+      "User skip nhiều — 5 giây đầu quyết định",
+      "Conversion trực tiếp thấp hơn Search/Facebook",
+      "Két hợp với Google Ads — cần quản lý 2 nơi"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPV": "200 - 1,000 VNĐ",
+      "CPM": "30,000 - 80,000 VNĐ",
+      "View_Rate": "15% - 40%"
+    },
+    "objectives": [
+      {
+        "id": "yt-awareness",
+        "name": "Awareness (Nhận diện thương hiệu)",
+        "category": "awareness",
+        "description": "Tăng nhận diện thương hiệu thông qua video quảng cáo. Reach rộng và frequency cao.",
+        "adFormats": [
+          "Bumper Ad (6s)",
+          "Non-skippable In-stream (15s)",
+          "Masthead"
+        ],
+        "metrics": [
+          "Impressions",
+          "Reach",
+          "CPM",
+          "Frequency",
+          "Brand Lift",
+          "Ad Recall"
+        ],
+        "targetAudience": "FMCG, brand launch, seasonal campaign, TVC online",
+        "bestPractices": [
+          "Bumper 6s: message đơn giản, logo cuối = nhớ lâu",
+          "Masthead: reach triệu views/ngày, phù hợp big launch",
+          "Non-skip 15s: kể 1 câu chuyện ngắn gọn, hấp dẫn"
+        ]
+      },
+      {
+        "id": "yt-consideration",
+        "name": "Consideration (Cân nhắc)",
+        "category": "engagement",
+        "description": "Người dùng xem video và tìm hiểu thêm về sản phẩm/thương hiệu. Tối ưu cho lượt xem và tương tác.",
+        "adFormats": [
+          "Skippable In-stream",
+          "In-feed Video Ad (Discovery)",
+          "Shorts Ad"
+        ],
+        "metrics": [
+          "Views",
+          "View Rate",
+          "CPV",
+          "Earned Views",
+          "Watch Time"
+        ],
+        "targetAudience": "Product demo, review, tutorial, behind-the-scenes",
+        "bestPractices": [
+          "Skippable: 5 giây đầu phải hook, story chính trong 30s",
+          "In-feed Ad: thumbnail bắt mắt + title gây tò mò",
+          "Call-to-action overlay để dẫn traffic"
+        ]
+      },
+      {
+        "id": "yt-action",
+        "name": "Action (Hành động chuyển đổi)",
+        "category": "conversions",
+        "description": "Video quảng cáo kèm CTA mạnh, hướng người xem thực hiện hành động: mua hàng, đăng ký, tải app.",
+        "adFormats": [
+          "Video Action Campaign",
+          "Skippable In-stream + CTA",
+          "Discovery + CTA"
+        ],
+        "metrics": [
+          "Conversions",
+          "CPA",
+          "CVR",
+          "ROAS",
+          "Click-through Rate"
+        ],
+        "targetAudience": "Ecommerce, app, lead gen, đăng ký dịch vụ",
+        "bestPractices": [
+          "CTA button rõ ràng: 'Mua ngay', 'Đăng ký', 'Tải app'",
+          "Video 15-30s, problem-solution format",
+          "Remarketing người đã xem video = conversion cao"
+        ]
+      }
+    ],
+    "adSpecs": {
+      "image": [
+        "Thumbnail: 1280x720px (16:9)",
+        "Companion Banner: 300x60px"
+      ],
+      "video": "16:9 | Tối đa 1GB | In-stream: tối thiểu 12s | Bumper: đúng 6s | Shorts: 9:16, <60s",
+      "text": "Tiêu đề video: 100 ký tự | Call-to-action: 10 ký tự | Overlay text: 20 ký tự",
+      "note": "In-stream có thể bỏ qua sau 5s — 5 giây đầu PHẢI đủ ấn tượng để giữ người xem"
+    },
+    "tips": [
+      "🎯 5 giây đầu phải có brand + hook — người xem bỏ qua sau đó nên chắc chắn nhận diện được brand",
+      "📊 Dùng Custom Intent Audience (người vừa search từ khóa liên quan) để tăng relevance",
+      "📱 Tối ưu cho mobile-first — 70% view từ mobile, chữ/logo phải to rõ",
+      "🔁 Kết hợp YouTube Awareness → Google Search Remarketing để hỗ trợ conversion",
+      "📈 Brand Lift Study để đo được KPI nhận biết thương hiệu thực sự"
+    ],
+    "commonMistakes": [
+      "❌ Không để lời kêu gọi hành động (CTA) trong 5s đầu — người bỏ qua không thấy gì",
+      "❌ Video quá dài, nội dung lê thê — drop-off rate cao sau 30s",
+      "❌ Không tắt \"Content exclusion\" phù hợp — brand xuất hiện cạnh nội dung nhạy cảm",
+      "❌ Chạy same creative >2 tháng — frequency cap không giữ nổi ad fatigue"
+    ]
+  },
+  {
+    "id": "zalo",
+    "name": "Zalo Ads",
+    "icon": "zalo",
+    "color": "#0068FF",
+    "description": "Nền tảng OTT lớn nhất Việt Nam với hơn 75 triệu người dùng. Mạnh về reach đối tượng 25-55 tuổi, nhắn tin trực tiếp, và Zalo OA.",
+    "audienceOverview": "25-55 tuổi, mọi ngành nghề, đặc biệt khu vực ngoài thành thị",
+    "minBudget": "Từ 100,000 VNĐ/ngày",
+    "pricingModel": [
+      "CPM",
+      "CPC",
+      "CPA"
+    ],
+    "idealFor": [
+      "Local Business",
+      "FMCG",
+      "F&B",
+      "Giáo dục",
+      "Bất động sản",
+      "Dịch vụ địa phương"
+    ],
+    "audience": {
+      "totalUsers": "75+ triệu tại VN",
+      "ageRange": "18-55",
+      "primaryAge": "25-45 (chiếm 55%)",
+      "gender": "Nữ 52%, Nam 48%",
+      "devices": "Mobile 98%, Desktop 2%",
+      "peakHours": "7:00-9:00, 11:00-14:00, 19:00-22:00"
+    },
+    "pros": [
+      "Nền tảng nội địa lớn nhất VN — 75M users",
+      "Message Ads mạnh — tỷ lệ mở tin nhắn > 80%",
+      "Phù hợp cho local business, SME, dịch vụ địa phương",
+      "Zalo OA (Official Account) kết hợp CRM",
+      "Chi phí thấp hơn Facebook ở nhiều ngành"
+    ],
+    "cons": [
+      "Targeting hạn chế hơn Facebook",
+      "Creative format ít đa dạng",
+      "Reporting/analytics cơ bản",
+      "Không phù hợp cho brand quốc tế hoặc audience trẻ (Gen Z)"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPM": "8,000 - 30,000 VNĐ",
+      "CPC": "500 - 3,000 VNĐ",
+      "CTR": "1.5% - 4.0%"
+    },
+    "objectives": [
+      {
+        "id": "zl-reach",
+        "name": "Reach (Tiếp cận)",
+        "category": "awareness",
+        "description": "Hiển thị quảng cáo đến nhiều người dùng Zalo nhất. Xuất hiện trên Zalo News Feed và Zalo App.",
+        "adFormats": [
+          "Zalo Feed Ad (Image)",
+          "Zalo Feed Ad (Video)",
+          "Zalo Banner"
+        ],
+        "metrics": [
+          "Reach",
+          "Impressions",
+          "CPM",
+          "Frequency"
+        ],
+        "targetAudience": "Brand awareness ở thị trường VN, đặc biệt 25+ tuổi",
+        "bestPractices": [
+          "Content style 'tin tức' phù hợp với feed Zalo",
+          "Hình ảnh sáng, text ngắn gọn",
+          "Targeting theo vùng miền rất hiệu quả"
+        ]
+      },
+      {
+        "id": "zl-traffic",
+        "name": "Traffic (Lưu lượng website)",
+        "category": "traffic",
+        "description": "Đưa người dùng Zalo đến website hoặc landing page của bạn.",
+        "adFormats": [
+          "Zalo Feed Ad + Link",
+          "Zalo Article Ad"
+        ],
+        "metrics": [
+          "Clicks",
+          "CTR",
+          "CPC",
+          "Landing Page Views"
+        ],
+        "targetAudience": "Ecommerce, landing page, đăng ký sự kiện",
+        "bestPractices": [
+          "Mobile-first landing page (95% user Zalo trên mobile)",
+          "CTA trực tiếp: 'Xem chi tiết', 'Đăng ký ngay'",
+          "Load speed dưới 3 giây"
+        ]
+      },
+      {
+        "id": "zl-message",
+        "name": "Message (Nhắn tin OA)",
+        "category": "leads",
+        "description": "Hướng người dùng nhắn tin cho Zalo Official Account (OA). Phù hợp tư vấn trực tiếp, chốt deal.",
+        "adFormats": [
+          "Zalo Feed Ad + Message CTA"
+        ],
+        "metrics": [
+          "Messages",
+          "Cost per Message",
+          "Message Response Rate"
+        ],
+        "targetAudience": "Dịch vụ tư vấn, bất động sản, giáo dục, spa/clinic",
+        "bestPractices": [
+          "Auto-reply message chuẩn bị sẵn câu trả lời",
+          "Chatbot Zalo OA tự động phân loại lead",
+          "Follow up trong 5 phút = tỷ lệ chốt cao"
+        ]
+      },
+      {
+        "id": "zl-conversion",
+        "name": "Conversion (Chuyển đổi)",
+        "category": "conversions",
+        "description": "Tối ưu cho hành vi chuyển đổi trên website. Cần cài Zalo Pixel.",
+        "adFormats": [
+          "Zalo Feed Ad",
+          "Zalo Retargeting Ad"
+        ],
+        "metrics": [
+          "Conversions",
+          "CPA",
+          "CVR",
+          "ROAS"
+        ],
+        "targetAudience": "Ecommerce, đặt hàng online",
+        "bestPractices": [
+          "Cài Zalo Pixel để track conversion",
+          "Retarget người đã vào website",
+          "Combo: chạy reach -> retarget conversion"
+        ]
+      }
+    ],
+    "adSpecs": {
+      "image": [
+        "1200x628px (News Feed)",
+        "1080x1080px (vuông)",
+        "Logo OA: 240x240px"
+      ],
+      "video": "Tỷ lệ 16:9 hoặc 1:1 | Tối đa 30MB | 15-30s khuyến nghị",
+      "text": "Tiêu đề: tối đa 50 ký tự | Mô tả: tối đa 100 ký tự | Nút CTA: mặc định hệ thống",
+      "note": "Message Ads: nội dung tin nhắn tối đa 4000 ký tự | Cần có Zalo Official Account (OA)"
+    },
+    "tips": [
+      "📱 Tạo Zalo OA (Official Account) trước — đây là kênh chốt đơn sau quảng cáo",
+      "💬 Dùng Message Ads (ZNS) để re-engage khách hàng cũ — tỷ lệ mở > 80%",
+      "📍 Tận dụng Geo-targeting theo tỉnh/thành phố cho local business",
+      "🎯 Segment theo giới tính + độ tuổi + thiết bị — Zalo có data khá chính xác",
+      "🛒 Kết nối OA với Zalo Shop để tạo hành trình mua hàng khép kín"
+    ],
+    "commonMistakes": [
+      "❌ Chạy ads không có Zalo OA — khách quan tâm không biết liên hệ đâu",
+      "❌ Nội dung quảng cáo quá marketing, thiếu tính tự nhiên — không phù hợp văn hóa Zalo",
+      "❌ Không cài Zalo Pixel — bỏ lỡ cơ hội retargeting",
+      "❌ Bỏ qua đối tượng 35-55 tuổi — đây là nhóm mạnh nhất trên Zalo"
+    ]
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn Ads",
+    "icon": "linkedin",
+    "color": "#0A66C2",
+    "description": "Nền tảng chuyên nghiệp B2B hàng đầu. Targeting theo chức danh, ngành nghề, công ty, kỹ năng. CPM/CPC cao nhưng lead quality rất tốt.",
+    "audienceOverview": "Professionals, managers, C-level, 25-54 tuổi",
+    "minBudget": "Từ $10/ngày (~250,000 VNĐ)",
+    "pricingModel": [
+      "CPC",
+      "CPM",
+      "CPS (Cost per Send)"
+    ],
+    "idealFor": [
+      "B2B",
+      "SaaS",
+      "Tuyển dụng",
+      "Education",
+      "Finance",
+      "Consulting"
+    ],
+    "audience": {
+      "totalUsers": "6+ triệu tại VN",
+      "ageRange": "25-55",
+      "primaryAge": "30-50 (chiếm 60%)",
+      "gender": "Nam 58%, Nữ 42%",
+      "devices": "Desktop 55%, Mobile 45%",
+      "peakHours": "8:00-10:00, 14:00-16:00 (giờ làm việc)"
+    },
+    "pros": [
+      "Targeting theo chức danh, công ty, ngành nghề — chuẩn B2B",
+      "Chất lượng lead rất cao — decision makers",
+      "InMail Ads mở suất > 50%",
+      "Thought leadership content hiệu quả",
+      "Tốt cho tuyển dụng và employer branding"
+    ],
+    "cons": [
+      "CPC/CPL rất cao (gấp 3-5x Facebook)",
+      "Audience nhỏ tại VN so với FB/TikTok",
+      "Không phù hợp B2C, FMCG, mass market",
+      "Creative hạn chế — không có Reels/Stories"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPC": "15,000 - 80,000 VNĐ",
+      "CPL": "200,000 - 1,000,000 VNĐ",
+      "CTR": "0.3% - 1.5%",
+      "InMail_Open_Rate": "40% - 60%"
+    },
+    "objectives": [
+      {
+        "id": "li-awareness",
+        "name": "Brand Awareness (Nhận diện B2B)",
+        "category": "awareness",
+        "description": "Tăng nhận diện thương hiệu doanh nghiệp với đối tượng chuyên nghiệp. Tính theo impressions.",
+        "adFormats": [
+          "Single Image Ad",
+          "Video Ad",
+          "Carousel Ad",
+          "Event Ad"
+        ],
+        "metrics": [
+          "Impressions",
+          "Reach",
+          "CPM",
+          "Social Actions"
+        ],
+        "targetAudience": "B2B brand building, employer branding, thought leadership",
+        "bestPractices": [
+          "Content thought leadership > hard sell",
+          "Infographic/data-driven content hiệu quả cao",
+          "Video ngắn với insights ngành"
+        ]
+      },
+      {
+        "id": "li-website",
+        "name": "Website Visits (Truy cập website)",
+        "category": "traffic",
+        "description": "Đưa professionals đến website, blog, hoặc landing page B2B.",
+        "adFormats": [
+          "Single Image Ad",
+          "Carousel Ad",
+          "Text Ad",
+          "Spotlight Ad"
+        ],
+        "metrics": [
+          "Clicks",
+          "CTR",
+          "CPC",
+          "Landing Page Views"
+        ],
+        "targetAudience": "Blog B2B, whitepaper, webinar registration",
+        "bestPractices": [
+          "Offer value: whitepaper miễn phí, webinar, case study",
+          "Targeting theo job title + industry cho precision",
+          "A/B test headline vì CTR LinkedIn thường thấp"
+        ]
+      },
+      {
+        "id": "li-engagement",
+        "name": "Engagement (Tương tác bài viết)",
+        "category": "engagement",
+        "description": "Tăng tương tác cho bài đăng LinkedIn page. Xây dựng uy tín chuyên môn.",
+        "adFormats": [
+          "Single Image Ad",
+          "Video Ad",
+          "Document Ad (PDF carousel)",
+          "Poll Ad"
+        ],
+        "metrics": [
+          "Reactions",
+          "Comments",
+          "Shares",
+          "Followers",
+          "Engagement Rate"
+        ],
+        "targetAudience": "Thought leadership, company culture, industry insights",
+        "bestPractices": [
+          "Document Ad (slide PDF) có engagement rất cao",
+          "Hỏi ý kiến chuyên gia = comment chất lượng",
+          "Post từ personal profile > company page"
+        ]
+      },
+      {
+        "id": "li-leads",
+        "name": "Lead Generation (Thu thập lead B2B)",
+        "category": "leads",
+        "description": "Form lead gen tích hợp trong LinkedIn. Auto-fill thông tin từ profile = tỷ lệ submit cao.",
+        "adFormats": [
+          "Lead Gen Form Ad",
+          "Sponsored InMail + Form",
+          "Conversation Ad"
+        ],
+        "metrics": [
+          "Leads",
+          "CPL",
+          "Form Fill Rate",
+          "Lead Quality Score"
+        ],
+        "targetAudience": "B2B SaaS, consulting, recruitment, enterprise sales",
+        "bestPractices": [
+          "Lead form auto-fill = submit rate 10-15% (cao hơn landing page)",
+          "InMail cá nhân hóa theo ngành/chức danh",
+          "Offer: demo, trial, consultation miễn phí"
+        ]
+      },
+      {
+        "id": "li-jobs",
+        "name": "Job Applicants (Tuyển dụng)",
+        "category": "leads",
+        "description": "Quảng cáo tin tuyển dụng đến ứng viên phù hợp theo kỹ năng, kinh nghiệm, vị trí.",
+        "adFormats": [
+          "Single Job Ad",
+          "Jobs Tab on Company Page",
+          "Sponsored Jobs"
+        ],
+        "metrics": [
+          "Applications",
+          "Cost per Application",
+          "Apply Rate"
+        ],
+        "targetAudience": "HR, tuyển dụng nhân sự cấp trung-cao",
+        "bestPractices": [
+          "JD rõ ràng: lương, benefit, career path",
+          "Target ứng viên tương tự nhân viên hiện tại",
+          "Sponsored Jobs hiển thị đầu 'Jobs' tab"
+        ]
+      }
+    ],
+    "adSpecs": {
+      "image": [
+        "1200x627px (Single Image)",
+        "360x360px đến 1080x1080px (vuông)",
+        "Video Thumbnail: 16:9"
+      ],
+      "video": "16:9 hoặc 1:1 | Tối đa 200MB | 3s đến 30 phút | Captions bắt buộc (xem không tiếng)",
+      "text": "Headline: 70 ký tự | Introductory text: 150 ký tự | InMail Subject: 60 ký tự | Body: 1900 ký tự",
+      "note": "Document Ads (PDF/PPT): rất hiệu quả cho B2B lead gen | Conversation Ads thay thế InMail"
+    },
+    "tips": [
+      "🏢 Target theo Company Size + Job Title + Industry — đây là điểm mạnh độc nhất của LinkedIn",
+      "📄 Document Ads (chia sẻ tài liệu) có lead form tích hợp — CPL thấp hơn website redirect",
+      "🤝 Thought Leadership content từ cá nhân trong công ty hiệu quả hơn brand post 5-7x",
+      "🎯 Retarget người đã xem website/video với mức budget nhỏ hơn",
+      "📊 Dùng Lead Gen Forms tích hợp — giảm friction, tăng conversion rate"
+    ],
+    "commonMistakes": [
+      "❌ Target quá rộng (audience > 500K) trên LinkedIn — CPM cao, chất lượng loãng",
+      "❌ Dùng nội dung B2C, hình ảnh lifestyle — không phù hợp môi trường chuyên nghiệp",
+      "❌ Không theo dõi LinkedIn Insight Tag — mất khả năng retargeting website visitors",
+      "❌ Bỏ qua Conversation Ads — đây là format mạnh nhất hiện tại của LinkedIn"
+    ]
+  },
+  {
+    "id": "admicro",
+    "name": "Admicro (VCCorp)",
+    "icon": "admicro",
+    "color": "#E31E24",
+    "description": "Mạng quảng cáo lớn nhất Việt Nam thuộc VCCorp. Sở hữu inventory trên các trang tin lớn: Dân Trí, Kênh 14, Soha, CafeF, GenK. Reach hơn 60 triệu users/tháng.",
+    "audienceOverview": "25-55 tuổi, đọc tin tức, mọi ngành nghề tại VN",
+    "minBudget": "Theo booking (liên hệ Admicro), thường từ 10 triệu VNĐ/campaign",
+    "pricingModel": [
+      "CPM",
+      "CPC",
+      "CPD (Cost per Day)",
+      "Flat Rate"
+    ],
+    "idealFor": [
+      "FMCG",
+      "Finance",
+      "Automotive",
+      "Real Estate",
+      "Government",
+      "Telco"
+    ],
+    "audience": {
+      "totalUsers": "50+ triệu/tháng trên hệ thống",
+      "ageRange": "18-55",
+      "primaryAge": "25-44 (chiếm 55%)",
+      "gender": "Phụ thuộc từng báo (Dân Trí, VnExpress, Kenh14...)",
+      "devices": "Mobile 75%, Desktop 25%",
+      "peakHours": "7:00-9:00, 12:00-14:00, 20:00-22:00"
+    },
+    "pros": [
+      "Reach lớn trên các báo uy tín VN (Dân Trí, VnExpress, Kenh14)",
+      "Brand safety cao — môi trường tin tức uy tín",
+      "Nhiều vị trí premium (banner masthead, takeover)",
+      "Phù hợp cho corporate/government campaigns",
+      "Native ads chất lượng cao"
+    ],
+    "cons": [
+      "Chi phí cao — booking theo gói, không linh hoạt",
+      "Tối ưu rất hạn chế so với FB/Google",
+      "Không có self-serve platform",
+      "Reporting cơ bản, không real-time"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPM": "20,000 - 100,000 VNĐ",
+      "CPC": "2,000 - 10,000 VNĐ",
+      "CTR": "0.1% - 0.5%"
+    },
+    "objectives": [
+      {
+        "id": "am-display",
+        "name": "Display Banner (Quảng cáo hiển thị)",
+        "category": "awareness",
+        "description": "Banner quảng cáo trên các trang tin lớn nhất VN. Vị trí premium, reach cao, phù hợp branding.",
+        "adFormats": [
+          "Banner 300x250",
+          "Banner 728x90",
+          "Billboard 970x250",
+          "Sticky Banner",
+          "Interstitial"
+        ],
+        "metrics": [
+          "Impressions",
+          "Reach",
+          "CPM",
+          "CTR",
+          "Viewability"
+        ],
+        "targetAudience": "FMCG, ngân hàng, bảo hiểm, ô tô, bất động sản",
+        "bestPractices": [
+          "Billboard 970x250 có viewability cao nhất",
+          "Đặt trên đúng chuyên mục phù hợp (CafeF cho tài chính, GenK cho tech)",
+          "Creative thay đổi mỗi 2 tuần tránh ad fatigue"
+        ]
+      },
+      {
+        "id": "am-video",
+        "name": "Video Pre-roll (Quảng cáo video)",
+        "category": "awareness",
+        "description": "Video quảng cáo phát trước nội dung video trên các trang tin. Tương tự YouTube pre-roll.",
+        "adFormats": [
+          "Pre-roll 15s",
+          "Pre-roll 30s",
+          "Mid-roll",
+          "Out-stream Video"
+        ],
+        "metrics": [
+          "Views",
+          "VTR (View-through Rate)",
+          "CPV",
+          "Completion Rate"
+        ],
+        "targetAudience": "Brand storytelling, TVC online, product launch",
+        "bestPractices": [
+          "Pre-roll 15s có completion rate 80%+",
+          "Out-stream video chạy trong bài viết, viewability tốt",
+          "Combo: video awareness + banner retarget"
+        ]
+      },
+      {
+        "id": "am-native",
+        "name": "Native Ads (Quảng cáo tự nhiên)",
+        "category": "traffic",
+        "description": "Bài viết quảng cáo hiển thị như tin tức thông thường trên feed. CTR cao vì blend với nội dung.",
+        "adFormats": [
+          "Native Article",
+          "Sponsored Content",
+          "In-feed Native"
+        ],
+        "metrics": [
+          "Clicks",
+          "CTR",
+          "CPC",
+          "Time on Page",
+          "Scroll Depth"
+        ],
+        "targetAudience": "Content marketing, giáo dục, brand storytelling",
+        "bestPractices": [
+          "Nội dung hữu ích, không bán hàng trắng trợn",
+          "Tiêu đề kiểu tin tức, không kiểu quảng cáo",
+          "Link đến bài PR trên trang tin = uy tín"
+        ]
+      },
+      {
+        "id": "am-rich",
+        "name": "Rich Media (Quảng cáo tương tác)",
+        "category": "engagement",
+        "description": "Quảng cáo interactive với animation, expandable, gamification. Ấn tượng cao, phù hợp campaign lớn.",
+        "adFormats": [
+          "Expandable Banner",
+          "Floating Ad",
+          "Skin/Roadblock",
+          "Interactive Game Ad"
+        ],
+        "metrics": [
+          "Impressions",
+          "Engagement Rate",
+          "Interaction Time",
+          "CPM"
+        ],
+        "targetAudience": "Big campaign, product launch, FMCG, automotive",
+        "bestPractices": [
+          "Skin/Roadblock full trang cho impact lớn nhất",
+          "Interactive game ad tăng engagement 3-5x",
+          "File size tối ưu để không ảnh hưởng load speed"
+        ]
+      }
+    ],
+    "adSpecs": {
+      "image": [
+        "970x250px (Billboard)",
+        "300x250px (Medium Rectangle)",
+        "160x600px (Wide Skyscraper)",
+        "320x50px (Mobile Banner)"
+      ],
+      "video": "Pre-roll: 16:9 | 15-30s | Tối đa 50MB | In-read video: tự động phát không tiếng",
+      "text": "Display URL: 35 ký tự | Headline: 25 ký tự | Native Ads: Tiêu đề 60-80 ký tự + ảnh 600x400px",
+      "note": "Booking theo gói — liên hệ sales Admicro để nhận media kit và báo giá vị trí cụ thể"
+    },
+    "tips": [
+      "📰 Chọn vị trí phù hợp ngành: CafeF cho tài chính BĐS, Kenh14 cho FMCG/beauty, Soha cho mass market",
+      "🎯 Native Ads (bài viết tài trợ) ít bị ad-block, engagement cao hơn banner thường",
+      "🗓 Book Takeover/Masthead cho ngày ra mắt sản phẩm hoặc sự kiện lớn để maximize impact",
+      "🔗 Đảm bảo landing page load nhanh < 3s — traffic báo lớn có user chất lượng cao",
+      "📊 Yêu cầu báo cáo CPM + Viewability từ Admicro team để đánh giá đúng hiệu quả"
+    ],
+    "commonMistakes": [
+      "❌ Book vị trí sai đối tượng — banner bất động sản trên báo giải trí giới trẻ",
+      "❌ Không chuẩn bị landing page riêng — dùng homepage làm destination bị bóUnexpected",
+      "❌ Creative quá nhỏ chữ/logo — banner nhỏ khó đọc trên mobile",
+      "❌ Không đặt UTM tracking — không biết traffic từ Admicro convert thế nào"
+    ]
+  },
+  {
+    "id": "banner",
+    "name": "Banner & Programmatic Display",
+    "icon": "banner",
+    "color": "#8B5CF6",
+    "description": "Quảng cáo banner qua hệ thống programmatic (DV360, The Trade Desk) hoặc direct booking. Reach rộng, phù hợp awareness và retargeting.",
+    "audienceOverview": "Tùy thuộc vào website/app đặt banner, targeting theo data",
+    "minBudget": "Programmatic: từ 5 triệu VNĐ/tháng. Direct: theo báo giá publisher",
+    "pricingModel": [
+      "CPM",
+      "CPC",
+      "vCPM",
+      "CPD"
+    ],
+    "idealFor": [
+      "Ecommerce",
+      "FMCG",
+      "Finance",
+      "Automotive",
+      "Retargeting"
+    ],
+    "audience": {
+      "totalUsers": "Tuỳ theo DSP/publisher network",
+      "ageRange": "18-55",
+      "primaryAge": "25-44",
+      "gender": "Phụ thuộc targeting",
+      "devices": "Desktop 40%, Mobile 60%",
+      "peakHours": "Tuỳ theo publisher"
+    },
+    "pros": [
+      "Reach rộng trên nhiều website/app",
+      "Retargeting mạnh qua DMP/pixel",
+      "Programmatic tự động tối ưu bid/placement",
+      "Nhiều kích thước và format (IAB standard)",
+      "Phù hợp chiến dịch luôn-hiển (always-on)"
+    ],
+    "cons": [
+      "CTR thấp — banner blindness",
+      "Cần DSP/DMP — chi phí platform phí",
+      "Ad fraud/bot traffic là rủi ro",
+      "Creative hạn chế (static banner, rich media đắt)"
+    ],
+    "benchmarks": {
+      "note": "Số liệu tham khảo tại VN, 2024-2025",
+      "CPM": "10,000 - 50,000 VNĐ",
+      "CPC": "1,000 - 8,000 VNĐ",
+      "CTR": "0.05% - 0.3%"
+    },
+    "objectives": [
+      {
+        "id": "bn-awareness",
+        "name": "Awareness (Nhận diện rộng)",
+        "category": "awareness",
+        "description": "Hiển thị banner trên nhiều website/app để tăng nhận diện. CPM thấp, reach rất rộng.",
+        "adFormats": [
+          "Display Banner (IAB Standard)",
+          "Responsive Banner",
+          "Interstitial",
+          "Native Display"
+        ],
+        "metrics": [
+          "Impressions",
+          "Reach",
+          "CPM",
+          "Viewability Rate",
+          "Brand Lift"
+        ],
+        "targetAudience": "FMCG, ngân hàng, bảo hiểm, telecom, ô tô",
+        "bestPractices": [
+          "Viewability > 70% mới tính hiệu quả",
+          "Frequency cap 3-5 lần/user/tuần",
+          "Creative đa size: 300x250, 728x90, 160x600, 320x50"
+        ]
+      },
+      {
+        "id": "bn-retarget",
+        "name": "Retargeting (Tiếp thị lại)",
+        "category": "conversions",
+        "description": "Hiển thị quảng cáo cho người đã truy cập website nhưng chưa chuyển đổi. ROI rất cao.",
+        "adFormats": [
+          "Dynamic Retargeting Banner",
+          "Personalized Banner",
+          "Sequential Banner"
+        ],
+        "metrics": [
+          "Conversions",
+          "CPA",
+          "ROAS",
+          "Click-through Conv.",
+          "View-through Conv."
+        ],
+        "targetAudience": "Ecommerce, travel, bất động sản (hàng có giá trị cao)",
+        "bestPractices": [
+          "Dynamic banner hiển thị đúng sản phẩm user đã xem",
+          "Frequency cap cho retarget: 5-7 lần/tuần",
+          "Sequential messaging: awareness → consideration → CTA"
+        ]
+      },
+      {
+        "id": "bn-performance",
+        "name": "Performance Display (Hiển thị hiệu suất)",
+        "category": "conversions",
+        "description": "Banner tối ưu cho click và conversion. Sử dụng AI bidding để tìm user có khả năng convert cao.",
+        "adFormats": [
+          "Responsive Display",
+          "Smart Display",
+          "Discovery Ad"
+        ],
+        "metrics": [
+          "Clicks",
+          "CPC",
+          "Conversions",
+          "CPA",
+          "ROAS"
+        ],
+        "targetAudience": "Ecommerce scale lớn, app install, lead gen",
+        "bestPractices": [
+          "Dùng automated bidding (target CPA/ROAS)",
+          "A/B test creative liên tục",
+          "Exclude placements kém chất lượng"
+        ]
+      }
+    ],
+    "adSpecs": {
+      "image": [
+        "300x250px (Medium Rectangle)",
+        "728x90px (Leaderboard)",
+        "160x600px (Wide Skyscraper)",
+        "320x50px (Mobile Banner)",
+        "970x250px (Billboard)"
+      ],
+      "video": "VAST/VPAID | 15-30s pre-roll | HTML5 Rich Media | Fallback image bắt buộc",
+      "text": "Tuỳ publisher — thường 25-45 ký tự headline | CTA button: 15-20 ký tự",
+      "note": "Rich Media (HTML5 animation) tăng CTR 3-5x | Cần fallback static cho browsers chặn animation"
+    },
+    "tips": [
+      "🎨 Rich Media HTML5 tăng CTR 3-5x so với static banner — nên dùng nếu có creative budget",
+      "🔁 Retargeting banner (hiển thị lại cho người đã visit website) cho ROI tốt nhất",
+      "📱 Tối ưu riêng cho mobile (320x50) và desktop (728x90, 300x250) — hành vi khác nhau",
+      "🚫 Dùng Brand Safety list để loại trừ website không phù hợp với brand",
+      "📊 Đo Viewability (tỷ lệ banner thực sự nhìn thấy) — IAS/DoubleVerify chuẩn > 70%"
+    ],
+    "commonMistakes": [
+      "❌ Không có fallback image cho Rich Media — hiển thị trắng trên nhiều browser",
+      "❌ Quên UTM parameter trên mọi banner — không track được nguồn traffic",
+      "❌ Chạy same banner > 6 tuần không đổi — CTR giảm 60-80% do ad blindness",
+      "❌ Không loại trừ convertedAudience khỏi retargeting — tốn budget hiển thị cho người đã mua"
+    ]
+  }
+]

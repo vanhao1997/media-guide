@@ -1,0 +1,177 @@
+[
+    {
+        "term": "CPM",
+        "full": "Cost Per Mille",
+        "definition": "Chi phí cho mỗi 1,000 lượt hiển thị quảng cáo."
+    },
+    {
+        "term": "CPC",
+        "full": "Cost Per Click",
+        "definition": "Chi phí cho mỗi lượt click vào quảng cáo."
+    },
+    {
+        "term": "CPA",
+        "full": "Cost Per Action/Acquisition",
+        "definition": "Chi phí cho mỗi hành động chuyển đổi (mua hàng, đăng ký...)."
+    },
+    {
+        "term": "CPL",
+        "full": "Cost Per Lead",
+        "definition": "Chi phí cho mỗi khách hàng tiềm năng thu được."
+    },
+    {
+        "term": "CPI",
+        "full": "Cost Per Install",
+        "definition": "Chi phí cho mỗi lượt cài đặt ứng dụng."
+    },
+    {
+        "term": "CPV",
+        "full": "Cost Per View",
+        "definition": "Chi phí cho mỗi lượt xem video (thường ≥ 30 giây hoặc hết video)."
+    },
+    {
+        "term": "CTR",
+        "full": "Click-Through Rate",
+        "definition": "Tỷ lệ click = (Clicks / Impressions) × 100%. CTR cao = quảng cáo hấp dẫn."
+    },
+    {
+        "term": "CVR",
+        "full": "Conversion Rate",
+        "definition": "Tỷ lệ chuyển đổi = (Conversions / Clicks) × 100%. Đo hiệu quả landing page."
+    },
+    {
+        "term": "ROAS",
+        "full": "Return on Ad Spend",
+        "definition": "Doanh thu trên chi phí quảng cáo. ROAS 5x = thu 5 đồng cho mỗi 1 đồng chi."
+    },
+    {
+        "term": "ROI",
+        "full": "Return on Investment",
+        "definition": "Lợi nhuận trên vốn đầu tư. Tính cả chi phí sản phẩm, vận hành (khác ROAS)."
+    },
+    {
+        "term": "KPI",
+        "full": "Key Performance Indicator",
+        "definition": "Chỉ số đo lường hiệu suất chính. VD: CPL < 50K, ROAS > 3x."
+    },
+    {
+        "term": "TOFU",
+        "full": "Top of Funnel",
+        "definition": "Đầu phễu marketing — giai đoạn nhận biết thương hiệu (Awareness)."
+    },
+    {
+        "term": "MOFU",
+        "full": "Middle of Funnel",
+        "definition": "Giữa phễu — giai đoạn cân nhắc (Consideration), tương tác, tìm hiểu."
+    },
+    {
+        "term": "BOFU",
+        "full": "Bottom of Funnel",
+        "definition": "Cuối phễu — giai đoạn chuyển đổi (Conversion), mua hàng, đăng ký."
+    },
+    {
+        "term": "Reach",
+        "full": "Reach",
+        "definition": "Số người duy nhất (unique) đã thấy quảng cáo. Khác Impressions (lượt hiển thị)."
+    },
+    {
+        "term": "Impressions",
+        "full": "Impressions",
+        "definition": "Tổng số lần quảng cáo được hiển thị. 1 người có thể tạo nhiều impressions."
+    },
+    {
+        "term": "Frequency",
+        "full": "Frequency",
+        "definition": "Số lần trung bình 1 người thấy QC = Impressions / Reach. Tối ưu: 2-5 lần."
+    },
+    {
+        "term": "ThruPlay",
+        "full": "ThruPlay",
+        "definition": "Lượt xem video ≥ 15 giây hoặc hết video (nếu < 15s). Metric chuẩn của Facebook video."
+    },
+    {
+        "term": "DPA",
+        "full": "Dynamic Product Ad",
+        "definition": "Quảng cáo sản phẩm động — tự hiển thị sản phẩm phù hợp từ catalog cho từng user."
+    },
+    {
+        "term": "CPAS",
+        "full": "Collaborative Performance Advertising Solution",
+        "definition": "Giải pháp quảng cáo hợp tác giữa Brand và Sàn TMĐT (Shopee, Lazada). Chạy ads trên FB, traffic về shop sàn."
+    },
+    {
+        "term": "Pixel",
+        "full": "Tracking Pixel",
+        "definition": "Đoạn mã JavaScript cài trên website để theo dõi hành vi người dùng (conversion tracking)."
+    },
+    {
+        "term": "Lookalike",
+        "full": "Lookalike Audience",
+        "definition": "Nhóm đối tượng tương tự — Facebook tìm người giống khách hàng hiện tại dựa trên data."
+    },
+    {
+        "term": "Retargeting",
+        "full": "Retargeting / Remarketing",
+        "definition": "Tiếp thị lại — hiện QC cho người đã từng tương tác (xem web, add to cart nhưng chưa mua)."
+    },
+    {
+        "term": "A/B Testing",
+        "full": "A/B Testing (Split Test)",
+        "definition": "Thử nghiệm so sánh 2+ phiên bản QC (hình ảnh, copy, CTA) để tìm bản hiệu quả nhất."
+    },
+    {
+        "term": "GDN",
+        "full": "Google Display Network",
+        "definition": "Mạng hiển thị của Google — hơn 2 triệu website, app, blog. Reach > 90% internet users."
+    },
+    {
+        "term": "SEM",
+        "full": "Search Engine Marketing",
+        "definition": "Quảng cáo trên công cụ tìm kiếm (Google Ads Search). Tiếp cận người có intent cao."
+    },
+    {
+        "term": "SEO",
+        "full": "Search Engine Optimization",
+        "definition": "Tối ưu kết quả tìm kiếm tự nhiên (organic). Không mất phí click như SEM."
+    },
+    {
+        "term": "Landing Page",
+        "full": "Landing Page",
+        "definition": "Trang đích — trang web mà người dùng đến sau khi click QC. Tối ưu cho 1 mục tiêu cụ thể."
+    },
+    {
+        "term": "CTA",
+        "full": "Call To Action",
+        "definition": "Lời kêu gọi hành động. VD: 'Mua ngay', 'Đăng ký miễn phí', 'Tải app'."
+    },
+    {
+        "term": "UGC",
+        "full": "User-Generated Content",
+        "definition": "Nội dung do người dùng tạo (review, unboxing). Rất hiệu quả trên TikTok, Instagram."
+    },
+    {
+        "term": "Spark Ads",
+        "full": "Spark Ads (TikTok)",
+        "definition": "Định dạng QC của TikTok sử dụng bài đăng organic sẵn có — giữ engagement thật."
+    },
+    {
+        "term": "PMax",
+        "full": "Performance Max",
+        "definition": "Chiến dịch tối đa hiệu suất của Google — chạy trên tất cả kênh Google (Search, Display, YouTube, Gmail, Maps)."
+    },
+    {
+        "term": "Audience Network",
+        "full": "Audience Network",
+        "definition": "Mạng đối tác mở rộng — hiển thị QC ngoài nền tảng chính (FB Audience Network, TikTok Pangle)."
+    },
+    {
+        "term": "Bid",
+        "full": "Bid / Bidding",
+        "definition": "Giá thầu — số tiền sẵn sàng trả cho 1 click/impression/conversion. Có manual bid và auto bid."
+    },
+    {
+        "term": "Ad Inventory",
+        "full": "Ad Inventory",
+        "definition": "Kho vị trí quảng cáo có sẵn trên một nền tảng/website tại thời điểm nhất định."
+    }
+]
