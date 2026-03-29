@@ -224,6 +224,12 @@ function App() {
               >
                 <img src="/icons/book-open.svg" alt="" /> Thuật ngữ
               </button>
+              <button
+                className={`view-toggle-btn ${activeView === 'resources' ? 'active' : ''}`}
+                onClick={() => setActiveView('resources')}
+              >
+                <img src="/icons/presentation-chart.svg" alt="" /> Bài chia sẻ
+              </button>
             </div>
           </div>
           <div className="search-box">
@@ -283,6 +289,10 @@ function App() {
 
         {activeView === 'glossary' && (
           <GlossaryView searchQuery={searchQuery} />
+        )}
+
+        {activeView === 'resources' && (
+          <ResourcesView />
         )}
 
         {/* Last Updated Footer */}
@@ -480,13 +490,14 @@ function PlatformDetailView({ platform, expandedObjectives, onToggle, searchQuer
         {showInfo ? '▲ Ẩn thông tin' : '▼ Hiển thông tin chi tiết'}
       </button>
 
-      {/* ───── ACCOUNT TOOLS PANEL ───── */}
-      <div className="account-tools-section">
-        <div className="account-tools-header">
+      {/* ───── ACCOUNT TOOLS PANEL (Collapsible) ───── */}
+      <details className="collapsible-panel">
+        <summary className="collapsible-panel-header">
           <img src="/icons/presentation-chart.svg" alt="" className="account-tools-icon" />
           <span>Công cụ Account</span>
           <span className="account-tools-tag">Dùng khi tư vấn client</span>
-        </div>
+          <img src="/icons/caret-down.svg" alt="" className="collapsible-caret" />
+        </summary>
         <div className="account-tools-grid">
 
           {/* Creative Specs */}
@@ -546,19 +557,20 @@ function PlatformDetailView({ platform, expandedObjectives, onToggle, searchQuer
           )}
 
         </div>
-      </div>
+      </details>
 
 
-      {/* Client FAQ */}
+      {/* Client FAQ (Collapsible) */}
       {platform.faqs && platform.faqs.length > 0 && (
-        <div className="faq-section">
-          <div className="faq-header">
+        <details className="collapsible-panel faq-panel">
+          <summary className="collapsible-panel-header faq-header">
             <img src="/icons/megaphone.svg" alt="" />
             <div>
               <div className="faq-title">Câu hỏi thường gặp từ Client</div>
               <div className="faq-subtitle">Dùng khi xử lý objection trong cuộc họp</div>
             </div>
-          </div>
+            <img src="/icons/caret-down.svg" alt="" className="collapsible-caret" />
+          </summary>
           <div className="faq-list">
             {platform.faqs.map((faq, i) => (
               <details key={i} className="faq-item">
@@ -573,7 +585,7 @@ function PlatformDetailView({ platform, expandedObjectives, onToggle, searchQuer
               </details>
             ))}
           </div>
-        </div>
+        </details>
       )}
 
       <div className="layout-toggle-bar">
@@ -771,6 +783,75 @@ function ObjectiveFilterView({ results, activeFilter, onResultClick }) {
           </div>
         </div>
       ))}
+    </div>
+  )
+}
+
+/* ========== RESOURCES VIEW ========== */
+const RESOURCES = [
+  {
+    id: 'media-performance-training',
+    title: 'Media Performance Training',
+    desc: 'Bộ slide 32 trang về Media Performance cho team Account. Bao gồm KPI Fundamentals, 8 nền tảng chi tiết, Optimization & Creative Guide.',
+    tags: ['Training', '32 slides', 'Internal'],
+    icon: '/icons/presentation-chart.svg',
+    color: '#FF5722',
+    url: 'https://github.com/vanhao1997/slide-media-team',
+    status: 'live',
+  },
+]
+
+function ResourcesView() {
+  return (
+    <div className="tool-view">
+      <div className="tool-header">
+        <img src="/icons/presentation-chart.svg" alt="" />
+        <div>
+          <h2>Bài chia sẻ</h2>
+          <p>Tài liệu đào tạo và chia sẻ kiến thức cho team</p>
+        </div>
+      </div>
+
+      <div className="resources-grid">
+        {RESOURCES.map(res => (
+          <a
+            key={res.id}
+            href={res.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resource-card"
+            style={{ '--resource-color': res.color }}
+          >
+            <div className="resource-card-top">
+              <div className="resource-icon-wrap" style={{ background: `${res.color}15` }}>
+                <img src={res.icon} alt="" style={{ filter: 'none' }} />
+              </div>
+              <span className={`resource-status ${res.status}`}>
+                {res.status === 'live' ? '● Live' : '◌ Coming soon'}
+              </span>
+            </div>
+            <h3 className="resource-title">{res.title}</h3>
+            <p className="resource-desc">{res.desc}</p>
+            <div className="resource-tags">
+              {res.tags.map((t, i) => <span key={i} className="resource-tag">{t}</span>)}
+            </div>
+            <div className="resource-cta">
+              Mở tài liệu <img src="/icons/arrow-right.svg" alt="" />
+            </div>
+          </a>
+        ))}
+
+        {/* Placeholder for future resources */}
+        <div className="resource-card placeholder">
+          <div className="resource-card-top">
+            <div className="resource-icon-wrap" style={{ background: '#f0f0f0' }}>
+              <img src="/icons/lightbulb.svg" alt="" style={{ opacity: 0.3 }} />
+            </div>
+          </div>
+          <h3 className="resource-title" style={{ opacity: 0.4 }}>Sắp tới...</h3>
+          <p className="resource-desc" style={{ opacity: 0.3 }}>Nhiều bài chia sẻ khác sẽ được bổ sung tại đây</p>
+        </div>
+      </div>
     </div>
   )
 }
