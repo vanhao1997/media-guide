@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect } from 'react'
+import { Routes, Route, useNavigate, useParams, useLocation } from 'react-router-dom'
 import './App.css'
 import platforms from './data/platforms.json'
 import glossaryData from './data/glossary.json'
@@ -60,8 +61,22 @@ const CATEGORY_CONFIG = {
 const FUNNEL_ORDER = ['awareness', 'traffic', 'engagement', 'leads', 'conversions', 'app']
 
 function App() {
-  const [selectedPlatform, setSelectedPlatform] = useState(null)
-  const [activeView, setActiveView] = useState('platform')
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  // Derive view & platform from URL
+  const pathParts = location.pathname.split('/').filter(Boolean)
+  const activeView = pathParts[0] === 'platform' ? 'platform'
+    : pathParts[0] === 'objectives' ? 'objective'
+      : pathParts[0] === 'glossary' ? 'glossary'
+        : pathParts[0] === 'resources' ? 'resources'
+          : 'platform' // default = welcome/platform
+  const selectedPlatform = pathParts[0] === 'platform' && pathParts[1]
+    ? platforms.find(p => p.id === pathParts[1]) || null
+    : null
+
+  const [showInfo, setShowInfo] = useState(true)
+  const [layoutMode, setLayoutMode] = useState('funnel')
   const [activeFilter, setActiveFilter] = useState(null)
   const [expandedObjectives, setExpandedObjectives] = useState({})
   const [searchQuery, setSearchQuery] = useState('')
@@ -131,8 +146,7 @@ function App() {
   }
 
   const handlePlatformClick = (platform) => {
-    setSelectedPlatform(platform)
-    setActiveView('platform')
+    navigate(`/platform/${platform.id}`)
     setMobileMenuOpen(false)
     setExpandedObjectives({})
   }
@@ -142,8 +156,7 @@ function App() {
   }
 
   const handleResultClick = (result) => {
-    setSelectedPlatform(result.platform)
-    setActiveView('platform')
+    navigate(`/platform/${result.platform.id}`)
     setExpandedObjectives({ [result.id]: true })
   }
 
@@ -161,7 +174,7 @@ function App() {
 
       {/* Sidebar */}
       <aside className={`sidebar ${mobileMenuOpen ? 'open' : ''}`}>
-        <div className="brand" onClick={() => { setSelectedPlatform(null); setActiveView('platform'); setMobileMenuOpen(false) }}>
+        <div className="brand" onClick={() => { navigate('/'); setMobileMenuOpen(false) }}>
           <div className="brand-logo">
             <div className="brand-icon">M</div>
             <div className="brand-text">
@@ -207,26 +220,26 @@ function App() {
             <div className="view-toggle">
               <button
                 className={`view-toggle-btn ${activeView === 'platform' ? 'active' : ''}`}
-                onClick={() => setActiveView('platform')}
+                onClick={() => selectedPlatform ? navigate(`/platform/${selectedPlatform.id}`) : navigate('/')}
               >
                 <img src="/icons/list.svg" alt="" /> Nền tảng
               </button>
               <button
                 className={`view-toggle-btn ${activeView === 'objective' ? 'active' : ''}`}
-                onClick={() => setActiveView('objective')}
+                onClick={() => navigate('/objectives')}
               >
                 <img src="/icons/target.svg" alt="" /> Mục tiêu
               </button>
 
               <button
                 className={`view-toggle-btn ${activeView === 'glossary' ? 'active' : ''}`}
-                onClick={() => setActiveView('glossary')}
+                onClick={() => navigate('/glossary')}
               >
                 <img src="/icons/book-open.svg" alt="" /> Thuật ngữ
               </button>
               <button
                 className={`view-toggle-btn ${activeView === 'resources' ? 'active' : ''}`}
-                onClick={() => setActiveView('resources')}
+                onClick={() => navigate('/resources')}
               >
                 <img src="/icons/presentation-chart.svg" alt="" /> Bài chia sẻ
               </button>
@@ -267,7 +280,7 @@ function App() {
           <WelcomeView
             platformCount={platforms.length}
             objectiveCount={totalObjectives}
-            onNavigate={setActiveView}
+            onNavigate={(view) => navigate(`/${view === 'compare' ? '' : view}`)}
             onPlatformClick={() => handlePlatformClick(platforms[0])}
           />
         )}
