@@ -73,6 +73,24 @@
       "❌ Dung lượng pixel event sai — dẫn đến tối ưu sai mục tiêu",
       "❌ Đặt budget quá thấp (< 50K/ngày/ad set) — không đủ data để thuật toán học"
     ],
+    "faqs": [
+      {
+        "q": "Facebook Ads giá CPM cao hơn TikTok, sao phải chạy?",
+        "a": "Facebook có hệ thống targeting chính xác hơn (Custom Audience, Lookalike), nên tuy CPM cao hơn nhưng conversion rate tốt hơn. CPA cuối cùng thường thấp hơn khi tối ưu đúng."
+      },
+      {
+        "q": "Chạy bao lâu thì thấy hiệu quả?",
+        "a": "Learning phase mất 3-5 ngày (cần ~50 conversions). Sau đó thuật toán ổn định, nên đánh giá hiệu quả thật sự sau 7-14 ngày chạy liên tục."
+      },
+      {
+        "q": "Budget tối thiểu bao nhiêu để chạy Facebook?",
+        "a": "Tối thiểu 100K-200K/ngày/ad set để có đủ data. Recommend 500K-1M/ngày cho chiến dịch conversion để thuật toán học nhanh hơn."
+      },
+      {
+        "q": "Tại sao quảng cáo bị từ chối (reject) nhiều?",
+        "a": "Meta kiểm duyệt nghiêm về: text trên ảnh >20%, nội dung cam kết hiệu quả, hình ảnh trước/sau. Dùng Ad Library kiểm tra đối thủ để tham khảo format an toàn."
+      }
+    ],
     "objectives": [
       {
         "id": "fb-awareness",
@@ -334,6 +352,24 @@
       "CTR": "1.0% - 3.0%",
       "CPV": "100 - 500 VNĐ"
     },
+    "faqs": [
+      {
+        "q": "TikTok chỉ phù hợp cho Gen Z, khách hàng của tôi lớn tuổi hơn thì sao?",
+        "a": "Nhóm 25-44 tuổi trên TikTok VN đã chiếm >40% và tăng nhanh. Nhiều ngành như BĐS, ô tô, tài chính đã thành công với nhóm này trên TikTok."
+      },
+      {
+        "q": "Video TikTok phải làm chuyên nghiệp lắm không?",
+        "a": "Ngược lại — content authentic, tự nhiên (UGC-style) thường hiệu quả hơn video studio. Chi phí sản xuất thấp hơn nhiều so với Facebook/YouTube."
+      },
+      {
+        "q": "Spark Ads khác gì quảng cáo thường?",
+        "a": "Spark Ads boost bài đăng organic có sẵn (của brand hoặc KOL), giữ nguyên engagement gốc. CTR thường cao hơn 40-60% so với In-feed Ads thông thường."
+      },
+      {
+        "q": "Sản phẩm giá cao có chạy được TikTok không?",
+        "a": "Được, nhưng nên dùng TikTok cho TOFU (awareness & engagement) rồi retarget qua Facebook/Google cho conversion. Phễu đa kênh hiệu quả hơn."
+      }
+    ],
     "objectives": [
       {
         "id": "tt-reach",
@@ -574,6 +610,24 @@
       "CTR_Search": "2% - 8%",
       "CTR_Display": "0.3% - 1.0%"
     },
+    "faqs": [
+      {
+        "q": "Google Ads đắt hơn Facebook nhiều, có đáng không?",
+        "a": "Google bắt người dùng có intent (đang tìm kiếm) nên tỷ lệ chuyển đổi cao hơn 3-5x. CPC cao hơn nhưng CPA thường tương đương hoặc thấp hơn."
+      },
+      {
+        "q": "Search Ads vs Performance Max, nên chọn cái nào?",
+        "a": "Search Ads cho kiểm soát keyword chính xác, phù hợp ngành có intent rõ (BĐS, dịch vụ). PMax cho reach rộng, tự động tối ưu đa kênh, phù hợp e-commerce."
+      },
+      {
+        "q": "Làm sao biết keyword nào hiệu quả?",
+        "a": "Dùng Google Keyword Planner kiểm tra volume + CPC ước tính. Bắt đầu với Broad Match + Smart Bidding, sau 2 tuần phân tích Search Terms Report để refine."
+      },
+      {
+        "q": "Đối thủ bid giá cao, tôi budget ít thì có cơ hội không?",
+        "a": "Có — Google xếp hạng dựa trên Ad Rank = Bid × Quality Score. Tối ưu landing page + ad relevance có thể thắng đối thủ bid cao hơn 30-50%."
+      }
+    ],
     "objectives": [
       {
         "id": "gg-search",
@@ -768,6 +822,24 @@
       "CPM": "30,000 - 80,000 VNĐ",
       "View_Rate": "15% - 40%"
     },
+    "faqs": [
+      {
+        "q": "YouTube Ads có đắt không? Budget bao nhiêu là đủ?",
+        "a": "CPV (cost per view) tại VN khoảng 100-400đ, rẻ hơn nhiều thị trường khác. Budget khuyên 5-10M/tuần để có đủ data tối ưu."
+      },
+      {
+        "q": "Người xem skip quảng cáo hết, có lãng phí không?",
+        "a": "Với TrueView In-stream, bạn chỉ trả tiền khi người xem đủ 30s hoặc tương tác. Người skip = không mất phí nhưng vẫn được brand exposure 5s đầu miễn phí."
+      },
+      {
+        "q": "Cần video chuyên nghiệp mới chạy YouTube Ads được?",
+        "a": "Không nhất thiết. Video 15-30s quay bằng điện thoại + text overlay vẫn hiệu quả. Quan trọng là hook 5s đầu phải hấp dẫn để giữ người xem."
+      },
+      {
+        "q": "YouTube Ads hay Facebook Video Ads, cái nào tốt hơn?",
+        "a": "YouTube cho awareness sâu (người xem chủ động, thời lượng dài). Facebook cho reach rộng + retarget mạnh. Lý tưởng là kết hợp: YouTube tạo awareness → Facebook retarget."
+      }
+    ],
     "objectives": [
       {
         "id": "yt-awareness",
@@ -914,6 +986,24 @@
       "CPC": "500 - 3,000 VNĐ",
       "CTR": "1.5% - 4.0%"
     },
+    "faqs": [
+      {
+        "q": "Zalo Ads reach có lớn bằng Facebook không?",
+        "a": "Zalo có 76M+ MAU tại VN, tập trung nhóm 25-45 tuổi. Reach nhỏ hơn Facebook nhưng tỷ lệ mở tin nhắn (Message Ads) lên đến 80-90%, cao gấp 5x email marketing."
+      },
+      {
+        "q": "Zalo Ads phù hợp ngành nào nhất?",
+        "a": "BĐS, giáo dục, tài chính, bảo hiểm, dịch vụ địa phương — các ngành cần chăm sóc lead qua tin nhắn. Message Ads + Zalo OA là combo cực mạnh cho lead nurturing."
+      },
+      {
+        "q": "Sao không thấy nhiều case study Zalo Ads?",
+        "a": "Zalo Ads mới phổ biến từ 2023, ít agency chia sẻ case. Nhưng nhiều doanh nghiệp SME VN đang dùng hiệu quả vì CPL thấp hơn Facebook 30-50% ở một số ngành."
+      },
+      {
+        "q": "Zalo OA khác Zalo Ads thế nào?",
+        "a": "Zalo OA là trang doanh nghiệp (tương tự Fanpage). Zalo Ads là quảng cáo trả phí chạy trên Zalo. Nên có OA trước để chạy Message Ads và chăm sóc follower."
+      }
+    ],
     "objectives": [
       {
         "id": "zl-reach",
@@ -1076,6 +1166,24 @@
       "CTR": "0.3% - 1.5%",
       "InMail_Open_Rate": "40% - 60%"
     },
+    "faqs": [
+      {
+        "q": "LinkedIn Ads quá đắt, CPC cao gấp 5-10x Facebook?",
+        "a": "Đúng, CPC cao hơn nhưng đây là nền tảng duy nhất target được theo Job Title, Company Size, Industry. Cho B2B, 1 lead qualified từ LinkedIn có giá trị gấp 10-20x lead Facebook."
+      },
+      {
+        "q": "Audience VN trên LinkedIn có đủ lớn không?",
+        "a": "LinkedIn VN có ~5-6M users, tập trung ở HCM & HN. Nhỏ hơn Facebook nhưng toàn decision makers, C-level. Phù hợp cho B2B enterprise, tuyển dụng cấp cao, SaaS."
+      },
+      {
+        "q": "Nên chạy format nào trên LinkedIn?",
+        "a": "Sponsored Content (Single Image/Carousel) cho awareness. Message Ads cho direct engagement với decision makers. Lead Gen Forms cho tỷ lệ chuyển đổi cao nhất (form tự fill thông tin)."
+      },
+      {
+        "q": "Budget tối thiểu cho LinkedIn Ads là bao nhiêu?",
+        "a": "Minimum ~$10/ngày (~250K VND). Recommend $30-50/ngày cho campaign có đủ data. Với B2B, 1 deal closed có thể cover cả tháng ad spend."
+      }
+    ],
     "objectives": [
       {
         "id": "li-awareness",
@@ -1269,6 +1377,24 @@
       "CPC": "2,000 - 10,000 VNĐ",
       "CTR": "0.1% - 0.5%"
     },
+    "faqs": [
+      {
+        "q": "Admicro khác gì so với Google Display Network?",
+        "a": "Admicro sở hữu inventory premium trên VnExpress, Zing, Kênh14 — các trang tin hàng đầu VN. Traffic quality cao hơn, viewability tốt hơn GDN cho thị trường VN."
+      },
+      {
+        "q": "Có đo được hiệu quả trực tiếp không?",
+        "a": "Có — Admicro cung cấp báo cáo impressions, clicks, CTR, viewability. Kết hợp UTM tracking để đo conversion trên website. Tuy nhiên branding effect cần đo qua Brand Lift Study."
+      },
+      {
+        "q": "Budget tối thiểu với Admicro là bao nhiêu?",
+        "a": "Package thường từ 20-50M/tháng tùy vị trí và trang. Có thể negotiate dựa trên commitment dài hạn. Phù hợp cho brand có budget trung bình trở lên."
+      },
+      {
+        "q": "Khi nào nên chọn Admicro thay vì Facebook/Google?",
+        "a": "Khi cần brand safety cao (nội dung premium, không chạy cạnh tin tiêu cực), reach nhóm 25-45 tuổi đọc tin tức, hoặc cần định dạng quảng cáo rich media ấn tượng."
+      }
+    ],
     "objectives": [
       {
         "id": "am-display",
@@ -1442,6 +1568,24 @@
       "CPC": "1,000 - 8,000 VNĐ",
       "CTR": "0.05% - 0.3%"
     },
+    "faqs": [
+      {
+        "q": "Banner programmatic còn hiệu quả trong thời đại social media không?",
+        "a": "Có — Programmatic giúp retarget người đã visit website với chi phí thấp (CPM ~10-30K VND). Kết hợp với Facebook/Google tạo phễu đa kênh mạnh mẽ."
+      },
+      {
+        "q": "Người dùng có thấy banner không? Ad blindness?",
+        "a": "Native ads và rich media đã giảm ad blindness đáng kể. Viewability trung bình VN ~60-70%. Quan trọng là creative phải bắt mắt và đặt đúng vị trí premium."
+      },
+      {
+        "q": "Làm sao biết banner đang hiệu quả?",
+        "a": "Theo dõi: CTR (>0.1% là tốt), Viewability (>60%), VTR cho video banner. Dùng UTM + conversion tracking để đo post-click và post-view conversions."
+      },
+      {
+        "q": "DSP nào tốt nhất cho thị trường VN?",
+        "a": "DV360 (Google) có inventory lớn nhất. The Trade Desk cho premium inventory. Admicro DSP cho inventory VN local. Chọn dựa trên mục tiêu và budget."
+      }
+    ],
     "objectives": [
       {
         "id": "bn-awareness",

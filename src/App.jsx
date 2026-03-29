@@ -549,7 +549,35 @@ function PlatformDetailView({ platform, expandedObjectives, onToggle, searchQuer
       </div>
 
 
+      {/* Client FAQ */}
+      {platform.faqs && platform.faqs.length > 0 && (
+        <div className="faq-section">
+          <div className="faq-header">
+            <img src="/icons/megaphone.svg" alt="" />
+            <div>
+              <div className="faq-title">Câu hỏi thường gặp từ Client</div>
+              <div className="faq-subtitle">Dùng khi xử lý objection trong cuộc họp</div>
+            </div>
+          </div>
+          <div className="faq-list">
+            {platform.faqs.map((faq, i) => (
+              <details key={i} className="faq-item">
+                <summary className="faq-question">
+                  <span className="faq-q-icon">Q</span>
+                  {faq.q}
+                </summary>
+                <div className="faq-answer">
+                  <span className="faq-a-icon">A</span>
+                  {faq.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div className="layout-toggle-bar">
+
         <div className="layout-toggle">
           <button
             className={`layout-toggle-btn ${layoutMode === 'funnel' ? 'active' : ''}`}
