@@ -486,7 +486,6 @@ body {
 /* ========== PLATFORM PAGE ========== */
 .platform-page {
   padding: 32px;
-  max-width: 1100px;
   animation: fadeIn 0.3s ease;
 }
 
@@ -535,7 +534,7 @@ body {
   color: var(--color-text-secondary);
   font-size: 15px;
   line-height: 1.7;
-  max-width: 700px;
+  max-width: 900px;
 }
 
 .platform-meta {
@@ -771,7 +770,6 @@ body {
 /* ========== FILTER VIEW ========== */
 .filter-view {
   padding: 32px;
-  max-width: 1100px;
   animation: fadeIn 0.3s ease;
 }
 
@@ -1448,7 +1446,6 @@ body {
 /* ========== TOOL VIEW (shared) ========== */
 .tool-view {
   padding: 32px;
-  max-width: 1100px;
   animation: fadeIn 0.3s ease;
 }
 
