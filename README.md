@@ -55,6 +55,7 @@ Mở `http://localhost:5174`
 | `v2.0` | UX redesign + Account Tools |
 | `v2.1` | React Router integration |
 | `v2.2` | Remove info toggle + layout fix |
+| `v2.3` | Full-width layout (remove max-width) |
 
 Rollback: `git checkout v2.0`
 

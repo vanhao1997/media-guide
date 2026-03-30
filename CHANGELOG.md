@@ -1,5 +1,10 @@
 # Changelog
 
+## [2026-03-30] — v2.3
+### Fixed
+- **Full-width layout**: Removed `max-width: 1100px` constraint from `.platform-page`, `.filter-view`, `.tool-view` — content now fills entire available width
+- Widened platform description text from 700px to 900px
+
 ## [2026-03-29] — v2.2
 ### Added
 - **Collapsible panels**: Account Tools + Client FAQ sections collapse/expand with caret animation
