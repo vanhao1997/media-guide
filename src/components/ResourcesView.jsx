@@ -6,7 +6,7 @@ const RESOURCES = [
         tags: ['Training', '32 slides', 'Internal'],
         icon: '/icons/presentation-chart.svg',
         color: '#FF5722',
-        url: 'https://github.com/vanhao1997/slide-media-team',
+        url: '/learning/slide-media-team/',
         status: 'live',
     },
 ]
