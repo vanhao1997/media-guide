@@ -10,7 +10,7 @@ RUN npm run build
 FROM node:20-alpine AS slide-builder
 RUN apk add --no-cache git
 WORKDIR /slide
-RUN git clone --depth 1 https://github.com/vanhao1997/slide-media-team.git .
+RUN git clone --depth 1 --branch v2 https://github.com/vanhao1997/slide-media-team.git .
 RUN npm install
 # Set base path so all assets load correctly under /learning/slide-media-team/
 RUN npx vite build --base=/learning/slide-media-team/
