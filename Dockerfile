@@ -1,5 +1,5 @@
 # Stage 1: Build mediaguide main app
-FROM node:20-alpine AS builder
+FROM node:22-slim AS builder
 WORKDIR /app
 COPY package.json ./
 RUN npm install
@@ -7,13 +7,12 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Build slide-media-team (latest from GitHub)
-FROM node:20-alpine AS slide-builder
-RUN apk add --no-cache git
+FROM node:22-slim AS slide-builder
+RUN apt-get update && apt-get install -y --no-install-recommends git && rm -rf /var/lib/apt/lists/*
 WORKDIR /slide
 RUN git clone --depth 1 --branch v2 https://github.com/vanhao1997/slide-media-team.git .
 RUN npm install
-# Set base path so all assets load correctly under /learning/slide-media-team/
-RUN npx vite build --base=/learning/slide-media-team/
+RUN npm run build
 
 # Stage 3: Serve everything with Nginx
 FROM nginx:alpine
