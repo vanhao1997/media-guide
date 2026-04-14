@@ -8,7 +8,7 @@ RUN npm run build
 
 # Stage 2: Build slide-media-team (latest from GitHub)
 FROM node:22-slim AS slide-builder
-RUN apt-get update && apt-get install -y --no-install-recommends git && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends git ca-certificates && rm -rf /var/lib/apt/lists/*
 WORKDIR /slide
 RUN git clone --depth 1 --branch v2 https://github.com/vanhao1997/slide-media-team.git .
 RUN npm install
